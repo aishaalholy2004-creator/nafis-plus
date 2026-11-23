@@ -1,0 +1,152 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>نافس بلس للتميز</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap');
+:root{--navy:#253465;--pink:#f477b5;--yellow:#ffca38;--purple:#8d75d9;--blue:#79c9ef;--green:#75cba8}
+*{box-sizing:border-box}body{margin:0;background:#fffaf5;color:var(--navy);font-family:Tajawal,Arial,sans-serif}button,input{font:inherit}button{cursor:pointer;border:0}.wrap{max-width:1140px;margin:auto;padding:18px 22px}.nav{display:flex;align-items:center;justify-content:space-between;gap:12px}.logo{font-weight:900;font-size:25px}.logo span{color:#f46ca6}.nav button,.soft{border-radius:24px;background:#fff;color:var(--navy);border:2px solid #f3e7f0;padding:11px 18px;font-weight:800}
+.hero{margin-top:18px;position:relative;overflow:hidden;border-radius:35px;background:linear-gradient(125deg,#ffe2ef,#fff1bd 44%,#c9edff 78%,#e8dcff);padding:54px 48px;min-height:345px;display:flex;align-items:center;justify-content:space-between;gap:15px}
+.hero:before{content:'✦  ✧   ✦';position:absolute;top:20px;left:24%;color:white;font-size:38px;letter-spacing:25px}.hero h1{font-size:clamp(37px,5.5vw,66px);line-height:1.15;margin:12px 0}.hero h1 em{font-style:normal;color:#e65c9e}.hero p{font-size:18px;line-height:1.7;max-width:570px}.hero .math{font-size:clamp(65px,12vw,150px);transform:rotate(-10deg);text-shadow:8px 10px #ffffff88;white-space:nowrap}.chip{display:inline-block;border-radius:25px;background:#fff9;padding:9px 15px;font-weight:800;color:#9b5798}
+.cta{border-radius:22px;background:#e75a9e;color:white;padding:15px 24px;font-weight:900;box-shadow:0 7px 0 #b93f7a}.sectionhead{text-align:center;margin:37px 0 20px}.sectionhead h2{font-size:30px;margin:0}.sectionhead p{color:#777b9b;margin:8px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:white;border-radius:30px;padding:23px;box-shadow:0 12px 30px #36427012;border:2px solid #f1ecf4;text-align:center}.card .circle{width:120px;height:120px;border-radius:50%;display:grid;place-items:center;margin:auto;font-size:64px}.card h3{font-size:25px;margin:13px 0 5px}.card p{color:#6e7593;min-height:42px}.card button{border-radius:18px;padding:12px 25px;color:white;font-weight:900;background:var(--purple)}.card:nth-child(1) .circle{background:#ffe2a7}.card:nth-child(2) .circle{background:#d6f4d4}.card:nth-child(3) .circle{background:#e6d9ff}.card:nth-child(1) button{background:#ed9e2b}.card:nth-child(2) button{background:#45a88d}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.step{padding:23px;border-radius:25px;text-align:center;background:#fce3f0}.step:nth-child(2){background:#e2f3ff}.step:nth-child(3){background:#e9e3ff}.step strong{display:block;font-size:21px;margin:8px}.step .symbol{font-size:42px}.step p{margin:0;color:#5f6584}.credits{margin-top:30px;background:#fff;border:2px dashed #f5c5de;padding:18px;border-radius:22px;text-align:center;line-height:2;font-weight:700}.hide{display:none!important}.panel{background:white;border:2px solid #eee4f5;border-radius:30px;padding:26px;margin-top:25px;box-shadow:0 12px 30px #27315c0e}.toprow{display:flex;justify-content:space-between;align-items:center;gap:10px}.progress{height:13px;background:#f4eafa;border-radius:20px;margin:18px 0;overflow:hidden}.progress i{display:block;background:linear-gradient(90deg,#e765a6,#f5c444);height:100%;transition:.3s}.question{font-size:25px;font-weight:800;line-height:1.8;margin:25px 0}.choices{display:grid;grid-template-columns:1fr 1fr;gap:12px}.choice{padding:17px;border:2px solid #eee8f4;background:#fcfaff;border-radius:18px;text-align:center;color:var(--navy);font-weight:900;font-size:21px}.choice.chosen,.tile.chosen{background:#e9f9ec;border-color:#56bc91}.next{background:var(--purple);color:white;border-radius:18px;padding:13px 25px;font-weight:900;margin-top:20px}.next:disabled{opacity:.4;cursor:default}input{padding:15px;border:2px solid #e7dfee;border-radius:16px;width:min(100%,430px);display:block;margin:18px 0}.statgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.stat{border-radius:20px;background:#fff0f6;padding:20px}.stat:nth-child(2){background:#e7f5ff}.stat:nth-child(3){background:#f0ebff}.stat b{display:block;font-size:30px;margin-top:8px}.tablebox{overflow:auto}table{width:100%;border-collapse:collapse;min-width:520px}th,td{padding:14px;border-bottom:1px solid #eee;text-align:right}footer{text-align:center;color:#8889a1;font-size:13px;padding:30px 0}
+@media(max-width:680px){.wrap{padding:13px}.hero{padding:28px 22px;min-height:270px}.hero .math{display:none}.cards,.steps{grid-template-columns:1fr}.choices{grid-template-columns:1fr}.hero h1{font-size:39px}.statgrid{grid-template-columns:1fr}.logo{font-size:19px}}
+.stationgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:22px}.station{border:2px solid #eee5fa;border-radius:23px;padding:20px;background:#fff5fc;text-align:right}.station:nth-child(2){background:#fff5d7}.station:nth-child(3){background:#e5f7ff}.station:nth-child(4){background:#e9f9eb}.station h3{margin:5px 0}.station p{color:#686b85}.station button{border-radius:16px;padding:11px 17px;background:#866dd2;color:white;font-weight:800}.station button:disabled{background:#c7c2d1}.tilegrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:18px 0}.tile{background:#e9efff;border:2px solid #a6b8ec;border-radius:18px;padding:20px;font-size:22px;font-weight:800}.tile.matched{background:#d4f4dc;border-color:#4db783}.activityCard{background:#f9f4ff;padding:22px;border-radius:20px;font-size:23px;font-weight:800}.activityChoice{display:inline-block;background:#e4f7ff;border:2px solid #a8dcf4;padding:13px 20px;border-radius:15px;margin:7px;font-size:21px;font-weight:800}.activityChoice:disabled{opacity:.65}@media(max-width:680px){.stationgrid{grid-template-columns:1fr}.tilegrid{grid-template-columns:repeat(2,1fr)}}
+.certificate{border:9px double #d6a448;border-radius:25px;background:linear-gradient(145deg,#fff8dd,#fff,#fff0f7);padding:35px 26px;max-width:760px;margin:auto;text-align:center;box-shadow:0 10px 25px #2222}.certificate h1{font-size:43px;color:#b88124;margin:10px}.certificate p{line-height:1.9}.certStars{font-size:36px;color:#d7a531}.certSchool{font-size:15px;font-weight:800}.certName{font-size:34px;color:#9d5296;border-bottom:2px solid #dfc48a;display:inline-block;padding:10px 24px}.certScore{background:#eaf6ed;border-radius:20px;padding:13px;font-weight:800;margin:20px auto;max-width:320px}.certFoot{display:flex;justify-content:space-around;gap:15px;margin:26px 0;font-size:14px;line-height:1.8}.certActions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:20px 0}@media print{body{background:white}.nav,#home,#dashboard,footer,.certActions,.toprow{display:none!important}.wrap,.panel{padding:0;margin:0;border:0;box-shadow:none}.certificate{box-shadow:none;max-width:100%;break-inside:avoid}#student,#finish{display:block!important}}
+</style></head><body><div class="wrap">
+<header class="nav"><div class="logo">✦ نافس <span>بلس</span> للتميز</div><button onclick="teacher()">📊 لوحة المعلمة</button></header>
+<main id="home"><section class="hero"><div><span class="chip">✨ تعلّم • تحدّى • تميّز</span><h1>عالم <em>الرياضيات</em><br>أجمل مع نافس بلس!</h1><p>اختَر صفّك، اكتشف مستواك، واجمع نجوم التميز في رحلة من التحديات الممتعة.</p><button class="cta" onclick="document.getElementById('grades').scrollIntoView({behavior:'smooth'})">هيا نبدأ ✨</button></div><div class="math" aria-hidden="true">➕<br>🧮 ⭐</div></section>
+<div class="sectionhead" id="grades"><h2>🌈 اختر صفّك الدراسي</h2><p>لكل صف تحديات تناسب مهاراته</p></div><div class="cards">
+<div class="card"><div class="circle">🔢</div><h3>الصف الأول</h3><p>الأعداد والجمع والطرح</p><button onclick="choose(1)">ادخل التحدي ←</button></div>
+<div class="card"><div class="circle">🧩</div><h3>الصف الثاني</h3><p>الأنماط والمسائل اللفظية</p><button onclick="choose(2)">ادخل التحدي ←</button></div>
+<div class="card"><div class="circle">🚀</div><h3>الصف الثالث</h3><p>الضرب والقسمة والتفكير العليا</p><button onclick="choose(3)">ادخل التحدي ←</button></div></div>
+<div class="sectionhead"><h2>⭐ رحلة التميز في 5 محطات</h2><p>اختبار قبلي، تحديات، أوراق عمل، ألعاب، ثم اختبار بعدي</p></div><div class="steps"><div class="step"><div class="symbol">📝</div><strong>اختبار تشخيصي</strong><p>نكتشف مستواك قبل التدريب</p></div><div class="step"><div class="symbol">🏅</div><strong>تحديات ممتعة</strong><p>نتدرب على مهارات جديدة</p></div><div class="step"><div class="symbol">📈</div><strong>اختبار بعدي</strong><p>نقيس تقدمك ونحتفل بإنجازك</p></div></div>
+<div class="steps" style="margin-top:14px"><div class="step"><div class="symbol">📚</div><strong>أوراق عمل</strong><p>حلّ وتدرّب بطرق متنوعة</p></div><div class="step"><div class="symbol">🎮</div><strong>ألعاب رياضية</strong><p>طابق العمليات والنتائج</p></div><div class="step"><div class="symbol">🏆</div><strong>قياس التقدم</strong><p>قارن نتيجتك قبل وبعد</p></div></div><div class="credits">🏫 ابتدائية العزيزية لتحفيظ القرآن الكريم (طفولة مبكرة)<br>مبادرة المعلمة / فاطمة أحمد الغامدي<br>مديرة المدرسة / نوف القحطاني</div></main>
+<section id="student" class="panel hide"><div class="toprow"><button class="soft" onclick="home()">↩ الرئيسية</button><span class="chip" id="phaseLabel">الاختبار التشخيصي</span></div>
+<div id="entry"><h2 id="welcome"></h2><p>اكتب اسمك لتبدأ رحلتك. النتائج التجريبية محفوظة في هذا الجهاز فقط.</p><input id="studentName" placeholder="اسم الطالب / الطالبة"><button class="cta" onclick="begin()">ابدأ الاختبار التشخيصي</button></div>
+<div id="hub" class="hide"><h2>🌈 محطات رحلتك التعليمية</h2><p>اختَر أي قسم يعجبك وبأي ترتيب. بعد إكمال الأقسام الثلاثة يُفتح الاختبار البعدي.</p><div id="stations" class="stationgrid"></div></div><div id="activity" class="hide"><h2 id="activityTitle"></h2><p id="activityHelp"></p><div id="activityBody"></div><p id="activityFeedback" aria-live="polite"></p><button class="next" id="activityNext" onclick="nextActivity()" disabled>التالي ←</button><button class="soft" style="margin:14px" onclick="openHub()">↩ العودة للأقسام</button></div><div id="quiz" class="hide"><div class="toprow"><b id="qcount"></b><span id="qscore"></span></div><div class="progress"><i id="progress" style="width:0"></i></div><div class="question" id="qtext"></div><div class="choices" id="choices"></div><p id="quizFeedback" aria-live="polite" style="min-height:52px;font-size:19px;font-weight:800;padding:10px;border-radius:15px"></p><button class="next" id="next" onclick="advance()" disabled>السؤال التالي ←</button><button class="soft" id="quizBack" style="margin:12px" onclick="openHub()">↩ العودة للأقسام</button></div>
+<div id="finish" class="hide" style="text-align:center;padding:25px"></div></section>
+<section id="dashboard" class="panel hide"><div class="toprow"><button class="soft" onclick="home()">↩ الرئيسية</button><span class="chip">تجربة محلية</span></div><h2>📊 لوحة المعلمة — قياس الأثر</h2><p>النتائج الظاهرة هنا تخص هذا المتصفح فقط، لحين ربط قاعدة البيانات.</p><div class="statgrid"><div class="stat">عدد الطلاب<b id="total"></b></div><div class="stat">المتوسط القبلي<b id="beforeAvg"></b></div><div class="stat">المتوسط البعدي<b id="afterAvg"></b></div></div><h3>مستويات الصفوف</h3><div id="gradeReport"></div><h3>نتائج الطلاب</h3><div class="tablebox"><table><thead><tr><th>الاسم</th><th>الصف</th><th>قبلي</th><th>بعدي</th><th>التغير</th></tr></thead><tbody id="rows"></tbody></table></div><button class="next" onclick="download()">تصدير CSV</button></section>
+<footer>نافس بلس للتميز ✦ كل محاولة تقرّبك من النجاح</footer></div>
+<script>
+const data={
+1:[['كم ناتج ٣ + ٢ ؟',[4,5,6,7],1],['لدى نورة ٨ أقلام، أعطت صديقتها ٣ أقلام. كم بقي؟',[4,5,6,7],1],['أي عدد هو الأكبر؟',[3,9,6,5],1],['كم ناتج ٧ - ٤ ؟',[2,3,4,5],1],['أكمل النمط: ٢، ٤، ٦، ...',[7,8,9,10],1],['كم ناتج ٥ + ٤ ؟',[8,9,10,11],1]],
+2:[['في المكتبة ٣٥ قصة، أضيفت ٢٤ قصة. كم أصبحت؟',[49,59,69,79],1],['لدى متجر ٨٠ قلمًا، باع ٢٥ قلمًا. كم بقي؟',[45,55,65,75],1],['كم ناتج ٤٦ + ١٣ ؟',[58,59,60,61],1],['أكمل النمط: ١٠، ٢٠، ٣٠، ...',[35,40,45,50],1],['قرأت سارة ٦٠ صفحة من كتاب مكون من ٩٠ صفحة. كم بقي؟',[20,30,40,50],1],['كم ناتج ٧٢ - ٣١ ؟',[31,41,51,61],1]],
+3:[['في مكتبة المدرسة ٢٣٥ قصة، أضيفت ١٢٤ قصة. كم أصبحت؟',[349,359,369,379],1],['لدى متجر ٤٥٠ قلمًا، باع ١٧٥ قلمًا. كم بقي؟',[265,275,285,295],1],['في كل صندوق ٤ علب ألوان، ولدينا ٦ صناديق. كم علبة؟',[20,22,24,26],2],['وُزعت ٢٤ قطعة حلوى بالتساوي على ٤ طلاب. كم لكل طالب؟',[4,5,6,8],2],['في الحديقة ٤ صفوف، في كل صف ٥ أشجار، ثم أضيفت ٨. كم شجرة؟',[20,25,28,32],2],['مع فاطمة ٣٠ ريالًا، اشترت ٤ دفاتر ثمن الواحد ٥ ريالات. كم بقي؟',[8,10,12,15],1],['يقرأ أحمد قصتين كل أسبوع، كم قصة في ٨ أسابيع؟',[14,16,18,20],1],['لدى مزارع ٣٥ برتقالة وضعها بالتساوي في ٥ سلال. كم في السلة؟',[5,6,7,8],2]]
+};
+const postBank={
+1:[['كم ناتج ٤ + ٣؟',[6,7,8,9],1],['معك ٩ كرات، أعطيت ٤. كم بقي؟',[4,5,6,7],1],['ما العدد الأكبر؟',[6,8,4,7],1],['كم ناتج ٨ - ٣؟',[4,5,6,7],1],['أكمل النمط: ٣، ٥، ٧، ...',[8,9,10,11],1],['كم ناتج ٦ + ٢؟',[7,8,9,10],1]],
+2:[['في الفصل ٤٢ كتابًا، أضيفت ١٦. كم أصبحت؟',[48,58,68,78],1],['مع متجر ٩٠ قلمًا، باع ٣٥. كم بقي؟',[45,55,65,75],1],['كم ناتج ٣٧ + ٢٢؟',[49,59,69,79],1],['أكمل النمط: ١٥، ٢٥، ٣٥، ...',[40,45,50,55],1],['قرأت مريم ٤٥ صفحة من كتاب فيه ٨٠ صفحة. كم بقي؟',[25,35,45,55],1],['كم ناتج ٦٨ - ٢٤؟',[34,44,54,64],1]],
+3:[['في المكتبة ٢١٣ قصة، أضيفت ١٥٦ قصة. كم أصبحت؟',[359,369,379,389],1],['مع المتجر ٥٢٠ قلمًا، باع ١٨٥. كم بقي؟',[325,335,345,355],1],['في كل علبة ٥ ألوان، ولدينا ٧ علب. كم لونًا؟',[30,35,40,45],1],['وُزعت ٣٦ قطعة بالتساوي على ٦ طلاب. كم لكل طالب؟',[5,6,7,8],1],['في الحديقة ٣ صفوف بكل صف ٦ أشجار ثم أضيفت ٧. كم شجرة؟',[23,24,25,26],2],['مع سارة ٤٠ ريالًا، اشترت ٣ دفاتر ثمن الواحد ٨ ريالات. كم بقي؟',[14,16,18,20],1],['يقرأ خالد ٣ قصص أسبوعيًا. كم في ٦ أسابيع؟',[15,18,21,24],1],['وُزعت ٤٨ تفاحة على ٨ سلال. كم في كل سلة؟',[5,6,7,8],1]]};
+// بنك مستقل للتحديات: لا تُعاد أسئلة الاختبار القبلي أو البعدي.
+const challengeBank={
+1:[['مع ليان ٦ ملصقات، وأعطتها أختها ٣. كم أصبح معها؟',[8,9,10,11],1],['أي الأعداد أصغر؟',[7,4,9,6],1],['أكملي: ١، ٣، ٥، ...',[6,7,8,9],1],['كان في الحديقة ١٠ عصافير، طار ٤. كم بقي؟',[5,6,7,8],1],['ما العدد الذي يسبق ١٢؟',[10,11,13,14],1],['أي عملية نتيجتها ٨؟',['٣ + ٤','٥ + ٣','٩ - ٢','٦ + ٣'],1],['كم ضلعًا في المثلث؟',[2,3,4,5],1],['رتّبي: ٤، ٩، ٢. ما العدد الأوسط؟',[2,4,6,9],1]],
+2:[['اشترت هدى ٣ علب، في كل علبة ١٠ أقلام. كم قلمًا؟',[20,30,40,50],1],['ما قيمة الرقم ٧ في العدد ٧٤؟',[7,70,74,700],1],['أكملي النمط: ٥، ١٠، ١٥، ...',[18,20,25,30],1],['كم ناتج ٦٣ - ٢٧؟',[34,36,38,40],1],['في فصل ٢٤ طالبة، غابت ٦. كم حضرت؟',[16,18,20,22],1],['أي عدد زوجي؟',[33,47,52,65],2],['كم ناتج ٢٨ + ٣٥؟',[53,63,73,83],1],['أي عدد يقع بين ٤٩ و٥١؟',[48,50,52,53],1]],
+3:[['ما ناتج ٩ × ٦؟',[45,54,56,63],1],['وُزعت ٤٨ كرة بالتساوي على ٦ فرق. كم كرة لكل فريق؟',[6,8,9,12],1],['أي عدد يقبل القسمة على ٥ دون باقٍ؟',[32,43,55,68],2],['كم ناتج ٣٢٧ + ٢٤٦؟',[563,573,583,593],1],['اشترى خالد ٣ دفاتر، ثمن الدفتر ٧ ريالات. دفع ٣٠ ريالًا، كم يتبقى؟',[7,9,11,13],1],['أكملي النمط: ٤، ٨، ١٦، ...',[24,32,36,40],1],['كم ناتج ٧٢ ÷ ٩؟',[6,7,8,9],2],['ما محيط مربع طول ضلعه ٥ سم؟',[15,20,25,30],1]]
+};
+function mixChoices(q){let arr=q[1].map((v,k)=>({v,ok:k===q[2]}));for(let j=arr.length-1;j>0;j--){let k=Math.floor(Math.random()*(j+1));[arr[j],arr[k]]=[arr[k],arr[j]]}return [q[0],arr.map(x=>x.v),arr.findIndex(x=>x.ok)];}
+
+const speedBank={
+1:[['كم ناتج ٢ + ٦؟',[7,8,9,10],1],['كم ناتج ٩ - ٥؟',[3,4,5,6],1],['أي عدد يأتي بعد ١٤؟',[13,15,16,17],1]],
+2:[['كم ناتج ٤٤ + ١٢؟',[54,56,58,60],1],['كم ناتج ٧٠ - ٢٨؟',[40,42,44,46],1],['أي عدد أكبر من ٦٥؟',[62,64,66,60],2]],
+3:[['كم ناتج ٨ × ٧؟',[54,56,58,64],1],['كم ناتج ٦٣ ÷ ٧؟',[7,8,9,10],2],['كم ناتج ١٢٥ + ٧٥؟',[190,195,200,205],2]]
+};
+const worksheets={
+1:[['أكمل: ٤ + □ = ٩',5],['رتّب تصاعديًا: ٨، ٣، ٦. ما العدد الأول؟',3],['كم ناتج ١٠ - ٦؟',4]],
+2:[['أكمل: ٣٧ + □ = ٥٠',13],['ما العدد التالي: ١٢، ٢٢، ٣٢، ...؟',42],['كم ناتج ٨٤ - ٢٩؟',55]],
+3:[['كم ناتج ٧ × ٦؟',42],['كم ناتج ٤٥ ÷ ٥؟',9],['اشترت المعلمة ٥ علب، في كل علبة ٤ أقلام، ثم أعطت ٦ أقلام. كم بقي؟',14]]};
+const gamePairs={1:[[2,3],[4,2],[8,1]],2:[[12,5],[24,3],[30,4]],3:[[6,7],[8,5],[36,4]]};
+let completed={challenge:false,worksheet:false,game:false},activityType='',activityIndex=0,activityPoints=0,gameTiles=[],gameFirst=null,gameMatches=0,gameMode=0,gameAnswered=false,gameOrder=[];
+let grade=1,student='',phase='pre',i=0,correct=0,selected=-1,pre=0,trainingScore=0,questions=[];
+const el=id=>document.getElementById(id);
+function show(id){['home','student','dashboard'].forEach(x=>el(x).classList.toggle('hide',x!==id));window.scrollTo(0,0)}
+function home(){show('home')}
+function choose(g){grade=g;el('entry').classList.remove('hide');el('quiz').classList.add('hide');el('finish').classList.add('hide');el('hub').classList.add('hide');el('activity').classList.add('hide');completed={challenge:false,worksheet:false,game:false};el('studentName').value='';el('welcome').textContent='مرحبًا بك في الصف '+['','الأول','الثاني','الثالث'][g]+' 🌟';el('phaseLabel').textContent='الاختبار التشخيصي';show('student')}
+function begin(){student=el('studentName').value.trim();if(!student){alert('الرجاء كتابة الاسم أولًا');return}start('pre')}
+function start(p){phase=p;i=0;correct=0;selected=-1;let bank=p==='post'?postBank[grade]:p==='challenge'?challengeBank[grade]:data[grade];questions=bank.map(q=>mixChoices(q));el('entry').classList.add('hide');el('finish').classList.add('hide');el('hub').classList.add('hide');el('activity').classList.add('hide');el('quiz').classList.remove('hide');el('phaseLabel').textContent={pre:'اختبار تشخيصي',challenge:'تحدي نافس بلس',post:'الاختبار البعدي'}[p];el('quizBack').classList.toggle('hide',p!=='challenge');render()}
+function render(){const q=questions[i];selected=-1;el('qcount').textContent=`السؤال ${i+1} من ${questions.length}`;el('qscore').textContent=phase==='challenge'?'⭐ اجمع النجوم':'فكّر واختر الإجابة';el('progress').style.width=(i/questions.length*100)+'%';el('qtext').textContent=q[0];el('next').disabled=true;el('next').textContent=i===questions.length-1?'عرض النتيجة ←':'السؤال التالي ←';el('quizFeedback').textContent='';el('quizFeedback').style.background='transparent';el('choices').innerHTML='';q[1].forEach((v,k)=>{let b=document.createElement('button');b.className='choice';b.textContent=v;b.onclick=()=>answerQuiz(k);el('choices').appendChild(b)})}
+function answerQuiz(k){if(selected>=0)return;selected=k;const q=questions[i],ok=k===q[2];if(ok)correct++;document.querySelectorAll('#choices .choice').forEach((b,j)=>{b.disabled=true;if(j===q[2]){b.style.border='3px solid #36ad79';b.style.background='#e2f9ee'}else if(j===k){b.style.border='3px solid #ed7192';b.style.background='#ffedf2'}});el('quizFeedback').textContent=ok?'✅ إجابة صحيحة! رائع يا بطل / بطلة ⭐':'❌ ليست صحيحة هذه المرة. الإجابة الصحيحة: '+q[1][q[2]]+' — أحسنت المحاولة!';el('quizFeedback').style.background=ok?'#e5f8ee':'#fff0f2';el('next').disabled=false}
+function advance(){if(selected<0)return;i++;if(i<questions.length)render();else end()}
+function end(){let pct=Math.round(correct/questions.length*100);el('quiz').classList.add('hide');el('finish').classList.remove('hide');if(phase==='pre'){pre=pct;el('finish').innerHTML=`<div style="font-size:65px">🌱</div><h2>بداية رائعة يا بطل / بطلة!</h2><p>نتيجة الاختبار القبلي: <b>${pct}%</b></p><button class="cta" onclick="openHub()">انتقل إلى محطات التدريب 🌈</button>`}else if(phase==='challenge'){trainingScore=pct;completed.challenge=true;el('finish').innerHTML=`<div style="font-size:65px">🏅</div><h2>مبدع / مبدعة!</h2><p>أكملت التحديات بنتيجة ${pct}%</p><button class="cta" onclick="openHub()">العودة لاختيار الأقسام 🌈</button>`}else{const change=pct-pre;el('finish').innerHTML=`<div style="font-size:65px">🏆</div><h2>أحسنت! وصلت للنهاية</h2><p>قبلي: <b>${pre}%</b> · بعدي: <b>${pct}%</b></p><p>التغير: <b>${change>0?'+':''}${change} نقطة مئوية</b></p><button class="cta" onclick="save(${pct})">حفظ النتيجة</button>`}}
+function openHub(){
+el('finish').classList.add('hide');el('quiz').classList.add('hide');el('activity').classList.add('hide');el('entry').classList.add('hide');el('hub').classList.remove('hide');el('phaseLabel').textContent='اختَر قسمك';
+const allDone=completed.challenge&&completed.worksheet&&completed.game;
+let stages=[
+['🏆 التحديات الرياضية','مسائل لفظية وأسئلة متنوعة','challenge',true],
+['📚 أوراق العمل','أنشطة تفاعلية للتدريب','worksheet',true],
+['🎮 الألعاب التعليمية','ذاكرة الأرقام وتحدي السرعة وترتيب الأعداد','game',true],
+['📈 الاختبار البعدي','بعد إكمال الأقسام الثلاثة، قِس تقدّمك','post',allDone]
+];
+el('stations').innerHTML=stages.map(([title,desc,id,enabled])=>`<div class="station"><h3>${title}</h3><p>${desc}</p><button ${enabled?'':'disabled'} onclick="openStation('${id}')">${!enabled?'🔒 أكمل الأقسام الثلاثة':completed[id]?'إعادة النشاط':'ابدأ الآن ←'}</button></div>`).join('');
+}
+function openStation(id){
+if(id==='challenge')start('challenge');
+else if(id==='worksheet')startActivity('worksheet');
+else if(id==='game')startActivity('game');
+else if(id==='post'&&completed.challenge&&completed.worksheet&&completed.game)start('post');
+}
+function startActivity(kind){activityType=kind;activityIndex=0;activityPoints=0;el('hub').classList.add('hide');el('activity').classList.remove('hide');el('activityTitle').textContent=kind==='worksheet'?'📚 أوراق العمل التفاعلية':'🎮 لعبة مطابقة العمليات';el('phaseLabel').textContent=kind==='worksheet'?'ورقة عمل':'لعبة تعليمية';el('activityNext').classList.add('hide');if(kind==='worksheet')renderWorksheet();else{gameMode=0;renderGame()}}
+function renderWorksheet(){let q=worksheets[grade][activityIndex];el('activityHelp').textContent=`النشاط ${activityIndex+1} من ${worksheets[grade].length} — اكتبي الإجابة العددية`;el('activityBody').innerHTML=`<div class="activityCard">${q[0]}</div><input type="number" id="workAnswer" placeholder="اكتب الإجابة هنا" inputmode="numeric"><button class="next" onclick="checkWorksheet()">تحقق من إجابتي ✓</button>`;el('activityFeedback').textContent='';el('activityNext').disabled=true;el('activityNext').classList.remove('hide')}
+function checkWorksheet(){let v=el('workAnswer').value;if(v===''){el('activityFeedback').textContent='اكتب الإجابة أولًا';return}let ok=Number(v)===worksheets[grade][activityIndex][1];if(ok)activityPoints++;el('activityFeedback').textContent=ok?'⭐ رائع! إجابة صحيحة':'محاولة جميلة! الإجابة الصحيحة: '+worksheets[grade][activityIndex][1];el('activityNext').disabled=false;el('activityBody').querySelectorAll('button,input').forEach(b=>b.disabled=true)}
+function nextActivity(){if(activityType==='worksheet'){activityIndex++;if(activityIndex<worksheets[grade].length)renderWorksheet();else{completed.worksheet=true;activityDone('أكملت أوراق العمل!','العودة للأقسام 🌈')}}else if(activityType==='game'){if(gameMode===0){if(activityIndex<2){activityIndex++;gameAnswered=false;el('activityNext').classList.add('hide');renderSpeed()}else{gameMode=1;renderGame()}}else if(gameMode===1){gameMode=2;renderGame()}}}
+function renderGame(){
+ el('activityNext').classList.add('hide');gameAnswered=false;
+ const names=['⚡ تحدي السرعة','🧠 ذاكرة الأرقام','🔢 رتّبي الأعداد'];
+ el('activityTitle').textContent='🎮 '+names[gameMode];
+ if(gameMode===0){
+  activityIndex=0;renderSpeed();
+ }else if(gameMode===1){
+  let pairs=gamePairs[grade].map(([a,b])=>({left:`${a} + ${b}`,right:String(a+b)}));
+  gameTiles=pairs.flatMap((p,i)=>[{id:i,label:p.left,kind:'question'},{id:i,label:p.right,kind:'answer'}]);
+  gameTiles=[gameTiles[0],gameTiles[3],gameTiles[4],gameTiles[1],gameTiles[2],gameTiles[5]];
+  gameFirst=null;gameMatches=0;
+  el('activityHelp').textContent='اختاري العملية ثم بطاقتها المطابقة. كل تطابق يمنحك نجمة!';
+  el('activityFeedback').textContent='⭐ ٠ من ٣ أزواج';drawTiles();
+ }else{
+  gameOrder=grade===1?[9,3,6,1]:grade===2?[42,18,35,27]:[125,75,210,160];
+  activityIndex=0;el('activityHelp').textContent='اضغطي الأعداد من الأصغر إلى الأكبر';
+  el('activityFeedback').textContent='رتّبي ٤ أعداد لتحصلي على نجومك';drawOrder();
+ }
+}
+function renderSpeed(){
+ const q=speedBank[grade][activityIndex%speedBank[grade].length];
+ el('activityHelp').textContent=`⚡ السؤال ${activityIndex+1} من ٣ — فكّري ثم اختاري الإجابة`;
+ el('activityBody').innerHTML=`<div class="activityCard">${q[0]}</div><div class="choices">${q[1].map((v,i)=>`<button class="choice" onclick="answerSpeed(${i})">${v}</button>`).join('')}</div>`;
+ el('activityFeedback').textContent='اختاري الإجابة الصحيحة ⭐';
+}
+function answerSpeed(k){
+ if(gameAnswered)return;gameAnswered=true;
+ const q=speedBank[grade][activityIndex%speedBank[grade].length];
+ const good=k===q[2];if(good)activityPoints++;
+ el('activityBody').querySelectorAll('button').forEach((b,i)=>{b.disabled=true;if(i===q[2])b.classList.add('chosen')});
+ el('activityFeedback').textContent=good?'⭐ رائع يا بطل / بطلة! إجابة صحيحة':'محاولة جميلة! الإجابة الصحيحة: '+q[1][q[2]];
+ const btn=el('activityNext');btn.textContent=activityIndex===2?'اللعبة التالية ←':'السؤال التالي ←';btn.disabled=false;btn.classList.remove('hide');
+}
+function drawTiles(){
+ el('activityBody').innerHTML='<div class="tilegrid">'+gameTiles.map((t,i)=>`<button class="tile ${t.done?'matched':''} ${gameFirst===i?'chosen':''}" ${t.done?'disabled':''} onclick="pickTile(${i})">${t.done?'⭐ ':''}${t.label}</button>`).join('')+'</div>';
+}
+function pickTile(i){
+ const t=gameTiles[i];if(t.done)return;
+ if(gameFirst===null){gameFirst=i;el('activityFeedback').textContent='الآن اختاري البطاقة المطابقة';drawTiles();return}
+ if(gameFirst===i){gameFirst=null;drawTiles();return}
+ const f=gameTiles[gameFirst];
+ if(f.id===t.id&&f.kind!==t.kind){f.done=t.done=true;gameMatches++;el('activityFeedback').textContent=`⭐ تطابق رائع! ${gameMatches} من ٣`;}
+ else el('activityFeedback').textContent='حاولي مرة أخرى، ابحثي عن الناتج الصحيح';
+ gameFirst=null;drawTiles();
+ if(gameMatches===3){const btn=el('activityNext');btn.textContent='لعبة ترتيب الأعداد ←';btn.disabled=false;btn.classList.remove('hide')}
+}
+function drawOrder(){
+ const expected=gameOrder.slice().sort((a,b)=>a-b);
+ el('activityBody').innerHTML='<div class="tilegrid">'+gameOrder.map(n=>`<button class="tile ${expected.indexOf(n)<activityIndex?'matched':''}" ${expected.indexOf(n)<activityIndex?'disabled':''} onclick="pickOrder(${n})">${n}</button>`).join('')+'</div>';
+}
+function pickOrder(n){
+ const expected=gameOrder.slice().sort((a,b)=>a-b);
+ if(n!==expected[activityIndex]){el('activityFeedback').textContent='قريبة! ابحثي عن أصغر عدد متبقٍ';return}
+ activityIndex++;el('activityFeedback').textContent=`⭐ أحسنتِ! ${activityIndex} من ٤`;drawOrder();
+ if(activityIndex===4){completed.game=true;activityDone('أكملت الألعاب الثلاث بنجاح!','العودة للأقسام 🌈')}
+}
+function activityDone(message,buttonText){el('activity').classList.add('hide');el('finish').classList.remove('hide');el('finish').innerHTML=`<div style="font-size:65px">🌟</div><h2>${message}</h2><p>رائع يا بطل / بطلة!</p><button class="cta" onclick="openHub()">${buttonText}</button>`}
+function getRecords(){try{return JSON.parse(localStorage.getItem('nafisPlusRecordsV2')||'[]')}catch(e){return []}}
+function save(post){const a=getRecords();a.push({name:student,grade,pre,post,date:new Date().toLocaleDateString('ar-SA')});localStorage.setItem('nafisPlusRecordsV2',JSON.stringify(a));showCertificate(post)}
+function showCertificate(post){el('finish').innerHTML=`<div id="certificate" class="certificate"><div class="certStars">✦ ✧ ⭐ ✧ ✦</div><div class="certSchool">ابتدائية العزيزية لتحفيظ القرآن الكريم (طفولة مبكرة)</div><h1>شهادة تميّز</h1><p>تُمنح هذه الشهادة إلى</p><h2 class="certName">${safe(student)}</h2><p>من الصف ${['','الأول','الثاني','الثالث'][grade]} الابتدائي</p><p>تقديرًا لإتمام رحلة نافس بلس للتميز بنجاح، من الاختبار القبلي إلى التحديات وأوراق العمل والألعاب والاختبار البعدي.</p><div class="certScore">نتيجة الاختبار البعدي: ${post}%</div><div class="certFoot"><span>مبادرة المعلمة<br><b>فاطمة أحمد الغامدي</b></span><span>مديرة المدرسة<br><b>نوف القحطاني</b></span></div><small>تاريخ الإنجاز: ${new Date().toLocaleDateString('ar-SA')}</small></div><div class="certActions"><button class="cta" onclick="window.print()">🖨️ طباعة / حفظ الشهادة PDF</button><button class="soft" onclick="home()">العودة للرئيسية</button></div>`}
+function safe(t){return String(t).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function teacher(){show('dashboard');const a=getRecords(),avg=(r,k)=>r.length?Math.round(r.reduce((s,x)=>s+x[k],0)/r.length)+'%':'—';el('total').textContent=a.length;el('beforeAvg').textContent=avg(a,'pre');el('afterAvg').textContent=avg(a,'post');el('gradeReport').innerHTML=[1,2,3].map(g=>{let r=a.filter(x=>x.grade===g);return `<p><b>الصف ${['','الأول','الثاني','الثالث'][g]}</b> — ${r.length} مشاركات | قبلي ${avg(r,'pre')} | بعدي ${avg(r,'post')}</p>`}).join('');el('rows').innerHTML=a.map(r=>`<tr><td>${safe(r.name)}</td><td>${['','الأول','الثاني','الثالث'][r.grade]}</td><td>${r.pre}%</td><td>${r.post}%</td><td>${r.post-r.pre>0?'+':''}${r.post-r.pre}</td></tr>`).join('')||'<tr><td colspan="5">لا توجد نتائج حتى الآن</td></tr>'}
+function download(){let rows=[['الاسم','الصف','قبلي','بعدي','التاريخ'],...getRecords().map(r=>[r.name,r.grade,r.pre,r.post,r.date])];let csv='\ufeff'+rows.map(row=>row.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(',')).join('\r\n');let url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));let a=document.createElement('a');a.href=url;a.download='nafis-plus-results.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)}
+</script></body></html>
